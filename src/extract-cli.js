@@ -48,7 +48,7 @@ const filters = _getExtraNames(extraFilter, constants.DEFAULT_FILTERS);
 
 // Extract strings
 const extractor = new extract.Extractor({
-  lineNumbers: true,
+  lineNumbers: false,
   attributes,
   filters,
   filterPrefix,
